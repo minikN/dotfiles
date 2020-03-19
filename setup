@@ -1,0 +1,64 @@
+#!/usr/bin/env sh
+
+RED="\033[1;31m"
+GREEN="\033[1;32m"
+YELLOW="\033[1;33m"
+BOLD="\033[1m"
+RESET="\033[0m"
+
+BACKUP_DIR="$HOME/.backup"
+BASE_DIR=$(pwd)
+BIN_DIR="$HOME/bin"
+
+install_dep() {
+   sudo xbps-install -Ay $1 > /dev/null
+}
+
+if [ -d $BACKUP_DIR ]; then echo "Backup directory already exists. Quitting." && exit 0; fi
+mkdir "$BACKUP_DIR"
+
+
+printf "[${YELLOW}INFO${RESET}] Checking dependencies ...\n"
+if [ ! -x "$(command -v git)" ]; then
+    printf "[${YELLOW}DEPS${RESET}] Installing dependency git ...\n"
+    install_dep "git"
+fi
+
+if [ ! -x "$(command -v awk)" ]; then
+    printf "[${YELLOW}DEPS${RESET}] Installing dependency awk ...\n"
+    install_dep "awk"
+fi
+
+
+FILES=$(ls -A)
+for FILE in $FILES
+do
+
+    if [ ! $FILE = ".git" ] && [ ! $FILE = ".gitmodules" ] && [ ! $FILE = "setup" ]; then
+        if [ -d $HOME/$FILE ] || [ -f $HOME/$FILE ]; then
+            printf "[${YELLOW}INFO${RESET}] Backing up $HOME/$FILE to $BACKUP_DIR/$FILE\n"
+            mv "$HOME/$FILE" "$BACKUP_DIR/$FILE"
+        fi
+
+        printf "[${GREEN}LINK${RESET}] Creating symlink for $HOME/$FILE ...\n"
+        ln -s $BASE_DIR/$FILE $HOME/$FILE
+
+        if [ $FILE = "bin" ]; then
+            BINS=$(ls -A $HOME/$FILE)
+            for BIN in $BINS
+            do
+                printf "[${YELLOW}SCRIPT${RESET}] Granting execution permission for $HOME/$FILE/$BIN ...\n"
+                chmod +x $HOME/$FILE/$BIN
+
+                DEPS=$(awk -F" " '$1 ~ /DEPS/ {for (i=2; i<=NF; i++) print $i}' $HOME/$FILE/$BIN)
+                for DEP in $DEPS
+                do
+                    if [ ! -x "$(command -v $DEP)" ]; then
+                        printf "[${YELLOW}DEPS${RESET}] Installing dependency $DEP for $BIN ...\n"
+                        install_dep "$DEP"
+                    fi
+                done
+            done
+        fi
+    fi
+done
