@@ -1,0 +1,3 @@
+[submodule ".doom.d/themes"]
+	path = .doom.d/themes
+	url = https://github.com/minikN/doom-emacs-monokai-pro-spectrum
