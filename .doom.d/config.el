@@ -69,26 +69,27 @@
 ;; Configure lsp and lsp-ui
 (load! "userconfig/lsp")
 
+;; IRC
+(load! "userconfig/irc")
+;; (defvar *image-directory* "/home/demis/screenshots")
 
-(defvar *image-directory* "/home/demis/screenshots")
+;; (defun screenshot (&optional crop)
+;;   "Takes screenshots and opens the folder in Dired"
+;;   (interactive "p")
+;;   (let* ((image-capture-program (if (= current-prefix-arg 0) "maim -s" "maim"))
+;;      (sleep-seconds (if (and current-prefix-arg (not (zerop current-prefix-arg)))
+;;             current-prefix-arg 0))
+;;      (image-type ".png")
+;;      (year (format-time-string "%Y"))
+;;      (month (format-time-string "%m"))
+;;      (date (format-time-string "%Y-%d-%m"))
+;;      (directory (concat *image-directory* "/" year "/" month "/" date))
+;;      (filename (concat directory "/" (format-time-string "%Y-%d-%m-%T") image-type))
+;;      (command (concat image-capture-program " \"" filename "\"")))
+;;     (make-directory directory t)
+;;     (sleep-for sleep-seconds)
+;;     (shell-command command)
+;;     (find-file-other-window directory)
+;;     (revert-buffer)))
 
-(defun screenshot (&optional crop)
-  "Takes screenshots and opens the folder in Dired"
-  (interactive "p")
-  (let* ((image-capture-program (if (= current-prefix-arg 0) "maim -s" "maim"))
-     (sleep-seconds (if (and current-prefix-arg (not (zerop current-prefix-arg)))
-            current-prefix-arg 0))
-     (image-type ".png")
-     (year (format-time-string "%Y"))
-     (month (format-time-string "%m"))
-     (date (format-time-string "%Y-%d-%m"))
-     (directory (concat *image-directory* "/" year "/" month "/" date))
-     (filename (concat directory "/" (format-time-string "%Y-%d-%m-%T") image-type))
-     (command (concat image-capture-program " \"" filename "\"")))
-    (make-directory directory t)
-    (sleep-for sleep-seconds)
-    (shell-command command)
-    (find-file-other-window directory)
-    (revert-buffer)))
-
-(global-set-key (kbd "<print>") 'screenshot)
+;; (global-set-key (kbd "<print>") 'screenshot)
