@@ -9,7 +9,7 @@ C_ORANGE="\[\033[35m\]"
 C_RED="\[\033[31m\]"
 C_BLUE="\[\033[34m\]"
 C_VIOLET="\[\033[36m\]"
-
+#
 # Use GPG-agent for SSH authentication
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 gpgconf --launch gpg-agent
