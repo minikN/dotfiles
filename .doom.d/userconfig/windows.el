@@ -14,5 +14,5 @@
   (balance-windows)
   (other-window 1))
 
-(global-set-key (kbd "C-x 2") 'split-and-follow-v)
-(global-set-key (kbd "C-x 3") 'split-and-follow-h)
+(global-set-key (kbd "C-x 2") 'split-and-follow-h)
+(global-set-key (kbd "C-x 3") 'split-and-follow-v)
