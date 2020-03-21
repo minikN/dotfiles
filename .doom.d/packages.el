@@ -52,3 +52,4 @@
 
 ;; EXWM
 (package! exwm)
+(package! pinentry)
