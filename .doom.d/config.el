@@ -72,8 +72,9 @@
 ;; IRC
 (load! "userconfig/irc")
 
-(setq epa-pinentry-mode 'loopback)
-(pinentry-start)
+;; Setup Pinentry for GPG and SSH
+(load! "userconfig/pinentry")
+
 ;; (defvar *image-directory* "/home/demis/screenshots")
 
 ;; (defun screenshot (&optional crop)
