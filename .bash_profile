@@ -2,5 +2,8 @@
 
 # Get the aliases and functions
 [ -f $HOME/.bashrc ] && . $HOME/.bashrc
-PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin
-#export GPG_TTY=$(tty)
+
+# GPG related stuff
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+export GPG_TTY=$(tty)
+gpgconf --launch gpg-agent
