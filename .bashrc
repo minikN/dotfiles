@@ -18,7 +18,7 @@ gpgconf --launch gpg-agent
 [[ $- != *i* ]] && return
 
 # Alias
-alias ls='ls --color=auto --group-directories-first -lAhgG'
+#alias ls='ls --color=auto --group-directories-first -lAhgG'
 
 # Prompt
 prompt_generator() {
