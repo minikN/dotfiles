@@ -71,6 +71,9 @@
 
 ;; IRC
 (load! "userconfig/irc")
+
+(setq epa-pinentry-mode 'loopback)
+(pinentry-start)
 ;; (defvar *image-directory* "/home/demis/screenshots")
 
 ;; (defun screenshot (&optional crop)
