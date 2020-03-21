@@ -14,7 +14,6 @@ install_dep() {
    sudo xbps-install -Ay $1 > /dev/null
 }
 
-
 if [ -d $BACKUP_DIR ]; then echo "Backup directory already exists. Quitting." && exit 0; fi
 mkdir "$BACKUP_DIR"
 
