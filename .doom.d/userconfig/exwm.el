@@ -30,8 +30,6 @@
 
 ;; Fix problems with Ido (if you use it).
 (require 'exwm-config)
-(exwm-config-ido)
-
 
 ;; Set the initial number of workspaces (they can also be created later).
 (setq exwm-workspace-number 6)
