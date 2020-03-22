@@ -75,6 +75,9 @@
 ;; Setup Pinentry for GPG and SSH
 (load! "userconfig/pinentry")
 
+;; Setup org mode
+(load! "userconfig/org-mode")
+
 ;; (defvar *image-directory* "/home/demis/screenshots")
 
 ;; (defun screenshot (&optional crop)
