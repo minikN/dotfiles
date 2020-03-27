@@ -14,12 +14,13 @@
 (defun dw/polybar-exwm-workspace ()
   (pcase exwm-workspace-current-index
     ;;(0 "%{F#f00} WWW%{F-}    TERM    CODE    AGENDA    MUSIC    CHAT")
-    (0 (concat "%{F" THEME_YELLOW "} WWW%{F-}    TERM    CODE    AGENDA    MUSIC    CHAT"))
-    (1 (concat " WWW   %{F" THEME_YELLOW "} TERM%{F-}    CODE    AGENDA    MUSIC    CHAT"))
-    (2 (concat " WWW    TERM   %{F" THEME_YELLOW "} CODE%{F-}    AGENDA    MUSIC    CHAT"))
-    (3 (concat " WWW    TERM    CODE   %{F" THEME_YELLOW "} AGENDA%{F-}    MUSIC    CHAT"))
-    (4 (concat " WWW    TERM    CODE    AGENDA   %{F" THEME_YELLOW "} MUSIC%{F-}    CHAT"))
-    (5 (concat " WWW    TERM    CODE    AGENDA    MUSIC   %{F" THEME_YELLOW "} CHAT%{F-}"))))
+    (0 (concat "%{F" THEME_YELLOW "} WWW%{F-}    TERM    CODE    AGENDA    MUSIC    CHAT    GAMES"))
+    (1 (concat " WWW   %{F" THEME_YELLOW "} TERM%{F-}    CODE    AGENDA    MUSIC    CHAT    GAMES"))
+    (2 (concat " WWW    TERM   %{F" THEME_YELLOW "} CODE%{F-}    AGENDA    MUSIC    CHAT    GAMES"))
+    (3 (concat " WWW    TERM    CODE   %{F" THEME_YELLOW "} AGENDA%{F-}    MUSIC    CHAT    GAMES"))
+    (4 (concat " WWW    TERM    CODE    AGENDA   %{F" THEME_YELLOW "} MUSIC%{F-}    CHAT    GAMES"))
+    (5 (concat " WWW    TERM    CODE    AGENDA    MUSIC   %{F" THEME_YELLOW "} CHAT%{F-}    GAMES"))
+    (6 (concat " WWW    TERM    CODE    AGENDA    MUSIC    CHAT   %{F" THEME_YELLOW "} GAMES%{F-}"))))
 
 ;; Hook for Polybar to update workspaces
 (defun dw/send-polybar-hook (name number)
