@@ -2,13 +2,13 @@
 
 ;; Emacs server is not required to run EXWM but it has some interesting uses
 ;; (see next section).
-(server-start)
+;(server-start)
 
 ;; Load EXWM.
 (require 'exwm)
 
 ;; Set the initial number of workspaces (they can also be created later).
-(setq exwm-workspace-number 6)
+(setq exwm-workspace-number 7)
 
 ;; Use class names for all windows except Java and GIMP
 (add-hook 'exwm-update-class-hook
