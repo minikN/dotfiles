@@ -20,6 +20,7 @@
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
 (setq doom-font (font-spec :family "Cozette" :size 14))
+;;(setq doom-font (font-spec :family "Monospace" :size 14))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -59,9 +60,12 @@
 (load! "userconfig/theme-colors")
 
 ;; Load EXWM and related configs
-(load! "userconfig/exwm")
 (load! "userconfig/exwm-randr")
 (load! "userconfig/exwm-polybar")
+(load! "userconfig/exwm")
+
+;; Configurate multi-term
+(load! "userconfig/term")
 
 ;; Configure windows
 (load! "userconfig/windows")
@@ -100,3 +104,40 @@
 ;;     (revert-buffer)))
 
 ;; (global-set-key (kbd "<print>") 'screenshot)
+(with-eval-after-load "persp-mode"
+  (require 'multi-term)
+  (with-eval-after-load "multi-term"
+
+    (persp-def-buffer-save/load
+     :mode 'term-mode :tag-symbol 'def-multiterm-buffer
+     :predicate #'(lambda (b) (memq b multi-term-buffer-list))
+     :save-vars '(default-directory)
+     :save-function #'(lambda (b tag lvars)
+                        (let ((bname (buffer-name b)))
+                          (push
+                           (cons 'multi-term-dedicated-bufferp
+                                 (eq b multi-term-dedicated-buffer))
+                           lvars)
+                          (push
+                           (cons 'multi-term-buffer-shell
+                                 (car (last (process-command
+                                             (get-buffer-process b)))))
+                           lvars)
+                          (list tag bname lvars)))
+     :after-load-function
+     #'(lambda (b &rest _)
+         (with-current-buffer b
+           (let ((shell-name (or multi-term-buffer-shell
+                                 multi-term-program
+                                 (getenv "SHELL")
+                                 (getenv "ESHELL")
+                                 "/bin/sh"))
+                 (term-name (buffer-name (current-buffer))))
+             (cd (or default-directory
+                     (expand-file-name multi-term-default-dir)))
+             (if multi-term-program-switches
+                 (term-ansi-make-term term-name shell-name nil
+                                      multi-term-program-switches)
+               (term-ansi-make-term term-name shell-name)))
+           (setq multi-term-buffer-list (nconc multi-term-buffer-list (list b)))
+           (multi-term-internal))))))

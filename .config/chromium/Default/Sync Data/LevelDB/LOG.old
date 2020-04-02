@@ -1,0 +1,9 @@
+2020/03/31-09:37:54.689 3ed Reusing MANIFEST /home/demis/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/03/31-09:37:54.689 3ed Recovering log #60
+2020/03/31-09:37:54.690 3ed Reusing old log /home/demis/.config/chromium/Default/Sync Data/LevelDB/000060.log 
+2020/03/31-21:38:40.029 4c5 Level-0 table #65: started
+2020/03/31-21:38:40.036 4c5 Level-0 table #65: 184219 bytes OK
+2020/03/31-21:38:40.041 4c5 Delete type=0 #60
+2020/04/01-00:59:47.411 4c5 Level-0 table #67: started
+2020/04/01-00:59:47.416 4c5 Level-0 table #67: 213902 bytes OK
+2020/04/01-00:59:47.419 4c5 Delete type=0 #64

@@ -1,0 +1,1000 @@
+echo $SECONDS
+echo $SECONDS
+echo $SECONDS
+echo $SECONDS
+echo $SECONDS
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 11
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/.zshrc
+cd
+cd
+cd
+cd
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd
+cd
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 11
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd
+. .config/zsh/prompt.zsh
+cd
+cd
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+cd
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+cd
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+print -P '%B%F{red}co%F{green}lo%F{blue}rs%f%b'
+print -P '%B%F{red}co%F{green}lo%F{yellow}rs%f%b'
+print -P '%B%F{red}co%F{green}lo%F{purple}rs%f%b'
+print -P '%B%F{red}co%F{green}lo%F{violet}rs%f%b'
+print -P '%B%F{red}co%F{green}lo%F{magenta}rs%f%b'
+print -P '%B%F{red}co%F{green}lo%F{orange}rs%f%b'
+print -P '%B%F{red}co%F{green}lo%F{cyan}rs%f%b'
+. .config/zsh/prompt.zsh
+cd
+cd
+sleep 0.1
+sleep 0.2
+sleep 0.3
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 0.1
+. .config/zsh/prompt.zsh
+sleep 0.1
+sleep 0.2
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 0.9
+sleep 0.8
+sleep 0.5
+sleep 0.5
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd
+sleep 1
+sleep 0.2
+sleep 0.15
+sleep 0.14
+. .config/zsh/prompt.zsh
+sleep 0.14
+sleep 0.15
+. .config/zsh/prompt.zsh
+sleep 0.14
+sleep 0.15
+sleep 0.1
+cd
+sleep 0.5
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 0.15
+. .config/zsh/prompt.zsh
+sleep 0.14
+sleep 1
+. .config/zsh/prompt.zsh
+sleep 1
+sleep 0.14
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+sleep 1
+$=
+$?
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+clear
+. .config/zsh/prompt.zsh
+cat dsjakdsa
+cat dsjakdsa
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cat dsakjdsa
+$?
+. .config/zsh/prompt.zsh
+cat sda                                                                                                                                                                                                                                                                                                                                                            001
+cat sda                                                                                                                                                                                                                                                                                                                                                            001
+. .config/zsh/prompt.zsh
+cat sdad
+. .config/zsh/prompt.zsh
+cat sdad
+. .config/zsh/prompt.zsh
+cat sdad
+unset RPROMPT
+. .config/zsh/prompt.zsh
+cat sa001 >cat sa 
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cat asd
+. .config/zsh/prompt.zsh
+cd git/dotfiles
+. .config/zsh/prompt.zsh
+cd
+. .config/zsh/prompt.zsh
+cd git/dotfiles
+cd /etc
+cat asd
+cd
+. .config/zsh/prompt.zsh
+su - root
+sudo date
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+pwd
+. .config/zsh/prompt.zsh
+. .config/zsh/prompt.zsh
+cd git
+sleep 2
+. .config/zsh/prompt.zsh
+cd
+. .config/zsh/prompt.zsh
+cd git
+xbps-query -R -S shellcheck
+ cd ~/.emacs.d/bin
+./doom sync
+./doom update
+./doom upgrade
+npm --global update
+sudo npm --global update
+bash-ls
+bashls
+ls
+sleep 1
+startx
+startx $XDG_CONFIG_HOME/X11/xinitrc
+sudo reboot
+startx
+sudo reboot
+cat .config/zsh/aliases.zsh
+echo $XDG_CONFIG_HOME
+startx "$XDG_CONFIG_HOME/X11/xinitrc"
+ls
+vi $ZDOTDIR/aliases.zsh
+cd
+. $ZDOTDIR/.zshrc
+startx $XDG_CONFIG_HOME/X11/xinitrc
+vi .config/zsh/aliases.zsh
+startx $XDG_CONFIG_HOME/X11/xinitrc
+ls
+echo $GNUPGHOME
+echo $XAUTHORITY
+ls .config/X11/
+cp .config/Xauthority .config/X11
+sudo reboot
+xmas
+vi .config/zsh/aliases.zsh
+sudo reboot
+sudo reboot
+xauth info
+cat .config/X11/Xauthority
+ls
+cat .Xauthority
+cp .config/X11/xinitrc .xinitrc
+ls
+export XAUTHORITY=~/.Xauthority
+startx
+echo $XDG_RUNTIME_DIR
+startx $XDG_CONFIG_HOME/X11/xinitrc
+rm -rf .config/X11/Xauthority
+echo $XAUTHORITY
+startx $XDG_CONFIG_HOME/X11/xinitrc
+echo $XAUTHORITY
+rm -rf .config/X11/Xauthority
+vi .config/zsh/exports.zsh
+sudo reboot
+startx $XDG_CONFIG_HOME/X11/xinitrc
+vi .config/zsh/exports.zsh
+rm -rf .config/Xauthority
+rm -rf ~/.Xauthority
+sudo reboot
+startx $XDG_CONFIG_HOME/X11/xinitrc
+pwd
+ls
+cat .Xauthority
+sudo reboot
+ls
+ls -la
+cd /tmp/1000-runtime-dir
+ls -la
+cd ../emacs1000
+ls
+ls -la
+chromium
+echo $DISPLAY
+echo $XAUTHORITY
+whoami
+ls
+ls /tmp/1000-runtime-dir/
+cd /tmp/1000-runtime-dir/
+sudo chmod 0700 Xauthority
+ls
+ ls -la
+. ~/.config/zsh/aliases.zsh
+ls
+ls -la
+echo $DISPLAY
+export
+hostname
+xauth list
+echo $XAUTHORITY
+echo $DISPLAY
+cd /tmp/1000-runtime-dir
+ls
+ls -la
+vi ~/.config/X11/xinitrc
+startx $XDG_CONFIG_HOME/X11/xinitrc
+ls
+ls -la
+chmod 0700 Xauthority
+ls -la
+startx $XDG_CONFIG_HOME/X11/xinitrc
+cd ..
+ls -la
+xauth
+stat -c %a /tmp/1000-runtime-dir/Xauthority
+sudo reboot
+startx $XDG_CONFIG_HOME/X11/xinitrc
+ls
+stat -c %a /tmp/1000-runtime-dir/Xauthority
+sudo reboot
+cd $XDG_RUNTIME_DIR
+ls
+ls -la
+startx $XDG_CONFIG_HOME/X11/xinitrc
+sudo reboot
+xbps-query -R -s brave
+cd bin
+ls
+xbps-gi
+./xbps-gi brave
+./xbps-gi brave-browser
+cd
+cd git
+git clone https://github.com/brave/brave-browser.git
+rm -rf brave-browser
+wget https://github.com/brave/brave-browser/releases/download/v1.7.74/brave-v1.7.74-linux-x64.zip
+which unzip
+which tar
+tar xvf brave-v1.7.74-linux-x64.zip
+xbps-query -R -s zip
+sudo xbps-install -s unzip
+sudo xbps-install -S unzip
+unzip brave-v1.7.74-linux-x64.zip
+ls
+ls
+ls -la
+rm -rf v8_context_snapshot.bin
+wget https://github.com/brave/brave-browser/releases/download/v1.7.74/brave-v1.7.74-linux-x64.zip
+unzip brave-v1.7.74-linux-x64.zip brave
+ls
+cd brave
+rm -rf brave
+unzip
+unzip brave-v1.7.74-linux-x64.zip -d brave
+cd brave
+ls -la
+./brave
+ls
+ls -la
+echo $PATH
+. ~/.config/zsh/exports.zsh
+echo $PATH
+cd
+cd bin
+ls
+rm -rf test
+ln -s ~/git/brave/brave .
+ls
+brave
+ls
+startx $XDG_CONFIG_HOME/X11/xinitrc
+startx $XDG_CONFIG_HOME/X11/xinitrc
+cd .config
+ls -la
+cd gtk-3.0
+ls
+ls -la
+cd
+ls -la
+. ~/.config/zsh/aliases.zsh
+ls
+rm -rf laravel
+rm -rf emacs-doom-themes
+rm -rf doom-emacs-monokai-pro-spectrum
+rm -rf .pki
+rm -rf .npm
+rm -rf .gnupg
+rm -rf cat
+rm -rf .xinitrc
+rm -rf .bash*
+ls
+sudo reboot
+xmas
+ls
+xbps-query firefox
+xbps-query -R firefox
+sudo xbps-remove -R firefox
+ls
+ls .config
+xbps-query -R -s kdbus
+rm -rf .dbus
+rm -rf .pki
+sudo reboot
+xmas
+startx $XDG_CONFIG_HOME/X11/xinitrc
+vi /var/log/Xorg.0.log
+clear
+ls
+cd .config/X11
+ls
+cat xinitrc
+cat ./xinitrc
+ls ~/git/dotfiles/.config/X11
+rm -rf xinitrc
+cd
+cd git/dotfiles/.config/X11
+ls
+rm -rf xinitrc
+touch xinitrc
+vi xinitrc
+xmas
+cp xinitrc ~/.config/X11/xinitrc
+xmas
+cd
+ks
+ls
+rm -rf .backup
+sed /$HOME/test "/home/demis/bla" 
+echo "/home/demis/bla" | sed '/$HOME/\//g'
+echo "/home/demis/bla" | sed '/$HOME/d/g'
+echo "/home/demis/bla" | sed 's/$HOME/d/g'
+echo "/home/demis/bla" | sed 's/$HOME/\//g'
+echo "/home/demis/bla" | sed "s/$HOME/\//g"
+echo "/home/demis/bla" | sed "s/$HOME/d/g"
+echo "/home/demis/bla" | sed -i "s/$HOME/d/g"
+echo "/home/demis/bla" | sed -i 's/'"${HOME}"'/d/g'
+echo "/home/demis/bla" | sed -i 's/'"${HOME}"'/d/'
+echo "/home/demis/bla" | sed -i 's/home\/demis/d/g'
+echo "/home/demis/bla" | sed 's/home\/demis/d/g'
+echo "/home/demis/bla" | sed -i "s|$HOME|d|g"
+echo "/home/demis/bla" | sed "s|$HOME|d|g"
+echo "/home/demis/bla" | sed "s|$HOME|\/|g"
+echo "/home/demis/root/etc" | sed "s|$HOME\/root|\/|g"
+echo "/home/demis/root/etc" | sed "s|$HOME\/root||g"
+man ls
+man ln
+cd
+cd .backup
+ls
+cd etc/profile.d
+ls
+cd
+cd /etc/profile.d
+lss
+ls -la
+echo $PATH
+xbps-gi
+xbps-gi adajsda
+cd
+ls
+rm -rf .backup
+sudo reboot
+cd
+cd git/dotfiles
+./setup
+cd
+ls
+man cp
+cd
+mv .backup .backup1
+cd git/dotfiles
+./setup
+./setup
+T
+T
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+cd root/etc/profile.d
+ls
+cd ..
+cd ..
+rm -rf ~/.backup
+./setup
+cd ..
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+rm -rf ~/.backup
+./setup
+xmas
+ls -la /tmp/1000-runtime-dir
+xmas
+lss
+ls -la
+echo $XDG_CONFIG_HOME
+cd .config
+ls
+ls -la
+cd
+rm -rf .backup1
+cd git/dotfiles/bin
+ls
+cd
+brave
+cd
+ls
+cd bin
+ls
+cd
+cd git
+git clone https://github.com/bauca/graphics-switcher
+cd graphics-switcher
+chmod +x Graphics-Switcher
+./Graphics-Switcher
+xbps-query -R -s glxinfo
+sudo xbps-install -S glxinfo
+./Graphics-Switcher
+xbps-query -R -s prime
+xbps-query -R -s select
+ls /etc/X11/xorg.conf.d
+sudo reboot
+cd .config
+ls
+cd picom
+ls
+cat picom.conf
+which picom
+picom
+picom --help
+cd /etc/xdg
+ls
+cd
+xrandr
+xrandr
+cd
+cd git/dotfiles/root/etc
+ls
+mkdir X11
+cd X11
+mkdir xorg.conf.d
+cp /etc/X11/xorg.conf.d/* xorg.conf.d
+cd xorg.conf.d
+ls
+cd
+ls
+cd git/dotfiles
+./setup
+cd /etc/X11
+ls
+cd xorg.conf.d
+ls
+rm -rf xorg.conf.d
+sudo rm -rf xorg.conf.d
+xdpyinfo
+xrandr
+xbps-query -R -s xdpyinfo
+sudo xbps-install -S xdpyinfo
+xdpyinfo
+xdpyinfo | grep -B 2 resolution
+clear
+sudo xbps-remove -R xdpyinfo
+xrandr
+xbps-query -R -s inconsolata
+sudo xbps-install -S font-inconsolata
+sudo xbps-install -S font-inconsolata-otf
+fc-list | grep "Incon"
+xrdb
+xbps-query -R -S xrdb
+sudo xbps-install -S xrdb
+xrdb
+xrdb -query
+xrdb -load ~/.config/X11/Xresources
+xrdb -query
+xmas
+sudo rm -rf /etc/X11/xorg.conf.d/20-intel.conf
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+sudo xbps-install -S linux-firmware-nvidia vulkan-loader vulkan-loader-32bit vulkan-validation-layers-32bit 
+cd /etc/xbps.d
+ls
+sudo mv local.conf 00-local.conf
+su - root
+clear
+ls
+sudo mv 00-repository-main.conf 01-repository-multilib.conf
+sudo xbps-install -Su
+sudo xbps-install -S linux-firmware-nvidia vulkan-loader vulkan-loader-32bit vulkan-validation-layers-32bit 
+sudo reboot
+xmas
+ls
+ulimit -Hn
+cd /etc/pam.d
+ls -la
+ulimit -aH
+cd /etc/security/limits.d
+ls -la
+su - root
+c
+cd
+cat /proc/sys/fs/file-max
+ulimit -n unlimited
+ulimit -aH
+sudo reboot
+startx
+xmas
+ulimit -Hn
+su - root
+cat /proc/sys/fs/file-max
+sudo reboot
+ulimit -n unlimited
+sudo reboot
+xmas
+Z
+sudo xbps-install -S gparted
+sudo gparted
+sudo xbps-remove -R gparted
+sudo reboot
+xmas
+cd
+ls /dev
+cat /etc/fstab
+blkid
+ls -la /media
+ls /media
+sudo mkdir /media/data
+mount /media/data
+cd /media
+ls
+cd data
+ls
+rm -rf lost+found
+umount /media/data
+cd
+umount /media/data
+sudo chown demis:demis /media/data
+sudo chmod +rw /media/data
+umount /media/data
+sudo umount /media/data
+cat /etc/fstab
+sudo reboot
+xmas
+cd /media/data
+ls -la
+mkdir test
+sudo reboot
+xmas
+ls -la /media
+sudo chown -R demis /media/data
+ls -la /media
+cd /media/data
+ls
+mkdir test
+rm -rf test
+rm -rf lost+found
+mkdir applications
+mkdir games
+ls -la
+cd games
+ls -la
+cd wow-classic
+ls -la
+sudo reboot
+xmas
+cd
+cd
+mkdir games
+sudo reboot
+xmas
+cd
+ls -la
+chown -R demis:demis games
+ls -la
+ls -la
+ls -la
+umount games
+sudo umount games
+sudo reboot
+ls -la
+cd games
+ls
+lss
+cd
+lss
+rm -rf Games
+cd games
+rm -rf *
+sudo umount games
+xmas
+sudo reboot
+lss
+rm -rf games
+mkdir games
+cd
+lss
+cd .config
+ls
+ cd .doom.d
+ls
+ls -la
+cd
+cd .emacs.d
+ls
+cd 
+cd .emacs.d/.local/etc/workspaces
+ls -la
+cat _workspaces
+clear
+cd .emacs.d/bin
+./doom sync
+cd ../.local/straight/build/
+ls -la | grep work
+cd
+002 ~ âƒ§ƒ‚ 
+002 ~ âƒ§ƒ‚ 002 ~ âƒ§ƒ‚ 
+000 ~ âƒ§ƒ‚ 002 ~ âƒ§ƒ‚ 002 ~ âƒ§ƒ‚ 
+000 ~ âƒ§ƒ‚ 000 ~ âƒ§ƒ‚ 002 ~ âƒ§ƒ‚ 002 ~ âƒ§ƒ‚ 
+ cd ~/.emacs.d/.local/etc/workspaces
+ls -la
+touch _workspaces
+ls -la
+ls -la
+cat _workspaces
+cat _workspaces
+cat _workspaces
+cat _workspaces
+279 ~/git/dotfiles âƒ§ƒ‚ 
+clear
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+xmas
+rm -rf ~/.emacs.d/.local/etc/workspaces/*
+xmas
+xmas
+cd .emacs.d/bin
+./doom reload
+./doom sync
+xmas
+./doom sync
+./doom rebuild
+./doom hel
+./doom help
+./doom purge
+./doom upgrade
+xmas
+xmas
+xmas
+sudo reboot
+cd
+rm -rf ~/games
+sudo reboot
+echo $GNUPGHOME
+pinentry-emacs
+top
+clear
+ 		ear
+startx
+xmas
+clear
+sudo mkdir /media/games
+sudo chown -R demis:demis /media/games
+ls -la /media
+rm -rf /media/data
+sudo rm -rf /media/data
+sudo reboot
+ls
+xmas
+ cd
+clear
+cd /media/games
+ls
+rm -rf *
+touch test
+rm -rf test
+which pinentry-emacs
+cd
+cd git/dotfiles
+ls
+cd bin
+ls
+./xbps-gi teamspeak3
+kill teamspeak3
+top
+kill -9 6673
+top
+kill -9 7065
+pulseaudio
+alsamixer
+clear
+pacmd
+pacmd list-sources
+sudo reboot
+which lutris
+lutris --help
+lutris -list-games
+lutris --list-games
+lutris -e 1
+lutris -e 1
+alsamixer
+xmas
+alsamixer
+xmas
+top
+cd
+cd Downloads
+wget https://github.com/erikabp123/ClassicAddonManager/releases/download/v0.78/ClassicAddonManager.jar
+cd
+ls -la
+cd     
+touch .config/wgetrc
+wget https://github.com/erikabp123/ClassicAddonManager/releases/download/v0.78/ClassicAddonManager.jar
+which java
+sudo xbps-install -S java
+sudo xbps-install -S openjdk11
+which java
+ls
+java -jar ClassicAddonManager.jar
+xbps-query -R -s jre
+sudo xbps-install -S openjdk8-jre
+java -jar ClassicAddonManager.jar
+sudo xbps-remove -R openjdk8-jre
+sudo xbps-remove -R openjdk11
+ls
+cd Downloads
+ls
+mkdir jv
+mv openjdk-12.0.2_linux-x64_bin.tar.gz jv
+cd jv
+tar xvf openjdk-12.0.2_linux-x64_bin.tar.gz
+cd jdk-12.0.2
+ls
+cd bin
+ls
+cd ..
+ls -la
+cd bin
+java
+./java
+./java -jar ~/ClassicAddonManager.jar
+cd
+rm -rf ClassicAddonManager.
+ls
+rm -rf ClassicAddonManager.*
+cd Downloads
+ls -la
+rm -rf jv
+wget https://github.com/erikabp123/ClassicAddonManager/releases/download/v0.78/ClassicWowAddonManager.zip
+unzip --help
+mkdir ClassicAddonManager
+ls -la
+unzip ClassicWowAddonManager.zip -d ClassicAddonManager
+cd ClassicAddonManager
+ls -la
+cd ClassicWowAddonManager
+ls -la
+wine 'Classic Addon Manager.exe'
+wine -h
+wine --help
+cd
+cd .config
+lss
+cd
+lss
+cd .wine
+ls
+cd ..
+WINEARCH=win64 WINEPREFIX=$HOME/.wine64 winecfg
+xbps-query -s wine
+xbps-query -R -s wine
+cd git/dotfiles/bin
+xbps-gi wine
+xbps-query -s jdk
+rm -rf ~/.wine64
+cd
+cd Downloads
+ls
+rm -rf Classic*
+ls -la
+sudo xbps-install -S python3
+ls
+tar xvf wow-addon-updater-1.6.3.tar.gz
+ls
+cd wow-addon-updater-1.6.3
+ls -la
+pip --version
+xbps-query -R -s pip
+sudo xbps-install -S python3-pip
+pip install pipenv
+sudo pip install pipenv
+pipenv install
+cat run_MacLinux.sh
+./run_MacLinux.sh
+chmod +x ./run_MacLinux.sh
+./run_MacLinux.sh
+./run_MacLinux.sh
+touch addons.txt
+./run_MacLinux.sh
+ln -s ./test /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns/
+ls -la
+cd test
+ls -la
+pwd
+ln -s ./test1 /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns/
+ls -la
+cd ..
+ls -la
+ln -s test1 /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns/
+ls -la
+ln -s /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns/ test1
+ls -la
+cd test1
+pwd
+ls -la
+rm -rf test*
+pwd
+ls -la
+./run_MacLinux.sh
+cd ..
+rm -rf test1
+./run_MacLinux.sh
+ls -la
+cat addon-updater.log
+./run_MacLinux.sh
+sudo xbps-install -S nextcloud-client
+nextcloud
+nextcloudcmd
+nextcloud
+./run_MacLinux.sh
+./run_MacLinux.sh
+./run_MacLinux.sh
+cd ..
+unzip tukui.zip
+ls -la
+cd Tukui
+ls
+cd ..
+cp Tukui /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns
+cp -r Tukui /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns
+unzip addonskins.zip
+ls -la
+cp -r AddonSkins /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns
+cp -r AddOnSkins /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns
+unzip tukui_tracking_menu.zip
+ls -la
+cp -r Tukui_TrackingMenu /media/games/wow-classic/drive_c/Program\ Files\ \(x86\)/World\ of\ Warcraft/_classic_/Interface/AddOns
+sudo reboot
