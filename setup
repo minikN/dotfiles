@@ -39,23 +39,6 @@ do
             mv "$HOME/$FILE" "$BACKUP_DIR/$FILE"
         fi
 
-        if [ $FILE = "root" ]; then
-            for DIR in $BASE_DIR/$FILE/*/**; do
-                for DEST_FILE in $(ls -A $DIR); do
-                    DEST_DIR=$(echo $DIR | sed "s|$BASE_DIR\/root||g")
-
-                    if [ -f $DEST_DIR/$DEST_FILE ]; then
-                        printf "[${YELLOW}INFO${RESET}] Backing up $DEST_DIR/$DEST_FILE to $BACKUP_DIR$DEST_DIR/$DEST_FILE\n"
-                        mkdir -p $BACKUP_DIR$DEST_DIR/ && cp $DEST_DIR/$DEST_FILE $BACKUP_DIR$DEST_DIR/
-                    fi
-
-                    printf "[${GREEN}LINK${RESET}] Creating symlink for $DEST_DIR/$DEST_FILE ...\n"
-                    sudo ln -sf $DIR/$DEST_FILE $DEST_DIR/$DEST_FILE
-                done
-            done
-            continue
-        fi
-
         printf "[${GREEN}LINK${RESET}] Creating symlink for $HOME/$FILE ...\n"
         ln -s $BASE_DIR/$FILE $HOME/$FILE
 
@@ -76,6 +59,5 @@ do
                 done
             done
         fi
-
     fi
 done
